@@ -1,0 +1,27 @@
+26
+start
+    print first
+end
+
+start
+    print second
+end
+
+start
+    print call1
+    call 1
+end
+
+
+start
+    return 1
+end
+
+start
+    return 2
+end
+
+start
+    call call 4
+    call call 5
+end

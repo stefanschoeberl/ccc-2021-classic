@@ -1,0 +1,45 @@
+35
+start
+    var a aaa
+    try
+        var a aaa
+    end catch
+        print redefinedvariable
+    end
+end
+
+start
+    var notabool abc
+    try
+        if notabool
+            print 1
+        end else
+            print 2
+        end
+    end catch
+        print errorincondition
+    end
+end
+
+start
+    postpone
+        print 3
+    end
+    try
+        postpone
+            print 2
+        end
+        print 1
+    end catch
+        print unreachable
+    end
+end
+
+start
+    print a
+end
+
+start
+    var a aaa
+    call 4
+end

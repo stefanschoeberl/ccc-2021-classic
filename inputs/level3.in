@@ -1,0 +1,37 @@
+36
+start
+    var a aaa
+    var a bbb
+end
+
+start
+    var a success
+    print a
+end
+
+start
+    var a first
+    set a second
+    print a
+end
+
+start
+    var condition true
+    if condition
+        print success
+    end else
+        print failure
+    end
+end
+
+start
+    if true
+        if false
+            print branch1
+        end else
+            print branch2
+        end
+    end else
+        print branch3
+    end
+end

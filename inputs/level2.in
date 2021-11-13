@@ -1,0 +1,18 @@
+17
+start
+    print begin
+    if true
+        print then1
+    end else
+        print otherwise1
+    end
+    if false
+        print then2
+    end else
+        print otherwise2
+    end
+    print returnnow
+    return result
+    print thisisnotprinted
+    print endoffunction
+end

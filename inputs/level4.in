@@ -1,0 +1,42 @@
+41
+start
+    postpone
+        print 2
+    end
+    print 1
+end
+
+start
+    postpone
+        print 2
+    end
+    print 1
+    postpone
+        print 3
+    end
+end
+
+start
+    postpone
+        postpone
+            print 3
+        end
+        print 2
+    end
+    print 1
+end
+
+start
+    postpone
+        print 4
+    end
+    print 1
+    if true
+        postpone
+            print 3
+        end
+        print 2
+    end else
+        print unreachable
+    end
+end
